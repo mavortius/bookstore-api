@@ -4,9 +4,9 @@ import { Book } from './book.model';
 @Injectable()
 export class BookService {
   books: Book[] = [
-    new Book('LIV001', 'TDD e BDD na prática', 29.9),
+    /*new Book('LIV001', 'TDD e BDD na prática', 29.9),
     new Book('LIV002', 'Iniciando com Flutter', 39.9),
-    new Book('LIV003', 'Inteligência artificial como serviço', 25.9),
+    new Book('LIV003', 'Inteligência artificial como serviço', 25.9),*/
   ];
 
   getAll(): Book[] {
